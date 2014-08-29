@@ -1,0 +1,74 @@
+/* 
+    Document   : template
+    Created on : 4-lug-2012, 21.24.03
+    Author     : Andrea
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#leaf {
+    border-bottom: 7px solid #9BAFF1;
+    border-collapse: collapse;
+    border-top: 7px solid #9BAFF1;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 4px;
+    margin: 10px;
+    text-align: center;
+}
+
+#leaf td {
+    background: none repeat scroll 0 0 #E8EDFF;
+    border-left: 1px solid #AABCFE;
+    border-right: 1px solid #AABCFE;
+    color: #666699;
+    padding: 8px;
+    font-size: 13px;
+}
+table td {
+    padding: 0.5em;
+}
+td, td img {
+    vertical-align: top;
+}
+
+#leaf th {
+    background: none repeat scroll 0 0 #E8EDFF;
+    border-left: 1px solid #9BAFF1;
+    border-right: 1px solid #9BAFF1;
+    color: #003399;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+}
+
+table th {
+    padding: 1em;
+}
+
+#stay {
+    border-collapse: collapse;
+    font-family: "Lucida Sans Unicode","Lucida Grande",Sans-Serif;
+    font-size: 12px;
+    margin: 10px;
+    text-align: left;
+}
+#stay th {
+    background: none repeat scroll 0 0 #B9C9FE;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 4px solid #AABCFE;
+    color: #003399;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 8px;
+}
+#stay td {
+    background: none repeat scroll 0 0 #E8EDFF;
+    border-bottom: 1px solid #FFFFFF;
+    border-top: 1px solid transparent;
+    color: #666699;
+    padding: 8px;
+}
